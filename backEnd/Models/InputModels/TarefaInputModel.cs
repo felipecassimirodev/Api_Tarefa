@@ -1,11 +1,16 @@
-﻿namespace APITarefas.Models.InputModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace APITarefas.Models.InputModels
 {
     public class TarefaInputModel
     {
-        public string Nome { get; set; } = null!;
+        [Required]
+        public string? Nome { get; set; }
 
-        public string Titulo { get; set; } = null!;
+        [Required]
+        public string? Titulo { get; set; }
 
-        public string Detalhes { get; set; } = null!;
+        [Required]
+        public string? Detalhes { get; set; }
     }
 }

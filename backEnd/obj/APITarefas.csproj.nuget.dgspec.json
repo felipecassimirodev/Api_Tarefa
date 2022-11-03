@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EstudoS\\ApiTarefa\\TarefaBack\\backEnd\\APITarefas.csproj": {}
+    "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\APITarefas.csproj": {}
   },
   "projects": {
-    "D:\\EstudoS\\ApiTarefa\\TarefaBack\\backEnd\\APITarefas.csproj": {
+    "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\APITarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\backEnd\\APITarefas.csproj",
+        "projectUniqueName": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\APITarefas.csproj",
         "projectName": "APITarefas",
-        "projectPath": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\backEnd\\APITarefas.csproj",
+        "projectPath": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\APITarefas.csproj",
         "packagesPath": "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\",
-        "outputPath": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\backEnd\\obj\\",
+        "outputPath": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felipe.cassimiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             },
             "MongoDB.Driver": {
               "target": "Package",

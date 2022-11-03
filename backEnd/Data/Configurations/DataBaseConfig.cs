@@ -2,7 +2,7 @@
 {
     public class DataBaseConfig : IDataBaseConfig
     {
-        public string DataBaseName { get; set; } = null!;
-        public string ConnectionString { get; set; } = null!;
+        public string? DataBaseName { get; set; }
+        public string? ConnectionString { get; set; }
     }
 }
