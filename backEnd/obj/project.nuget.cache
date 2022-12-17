@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RqG08U5/MB+FquPLsp4IU1nTTeGkm5FOUXvWJzh+s4zMop17PeZHRRDzHYv+YRYgw1A1zOafiBjpD7UNIGbbMQ==",
+  "dgSpecHash": "OSz1cqtjTzzW/WOrWFszIazNH2zqdjFrqegTE/lAs3W9qL30EBLm3B9Jq+3tLWmzidRg3kVqlLYNGdA62nRkvg==",
   "success": true,
-  "projectFilePath": "D:\\EstudoS\\ApiTarefa\\TarefaBack\\Api_Tarefa\\backEnd\\APITarefas.csproj",
+  "projectFilePath": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\APITarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -186,7 +186,11 @@
     "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\felipe.cassimiro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
   ],
   "logs": []
 }
