@@ -43,7 +43,7 @@ namespace APITarefas
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()
-                .WithOrigins("http://192.168.100.32:4200");
+                .WithOrigins("http://192.168.100.42:4200");
                 //Adicionar ip interno da máquina
             }));
 
