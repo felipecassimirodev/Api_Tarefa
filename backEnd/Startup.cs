@@ -62,15 +62,9 @@ namespace APITarefas
 
             app.UseCors("CorsPolicy");
 
-
-
             app.UseAuthorization();
 
             app.MapControllers();
-
-
-
-
 
         }
 
