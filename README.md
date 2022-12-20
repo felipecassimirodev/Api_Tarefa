@@ -6,8 +6,8 @@
         "DataBaseConfig": {
         "DataBaseName": "Treinamento",
         "ConnectionString": "mongodb://192.168.100.42:27023/"
-    
-# Documentação pra inicializar o container
+
+# Documentação pra inicializar o container Da Api
 
    1. #Gerar imagem do containe
         #Docker build --no-cache -f Dockerfile -t Nome_da_imagem .
@@ -23,3 +23,22 @@
 
     #Remover o container
         #Docker rm Nome_do_container
+
+
+# MongoDB container
+       
+# Instalação da imagem do MongoDB no Docker 
+   1. #Comando para obter a imagem do Docker
+        docker pull mongo
+   2. #Comando para criar o container do MongoDB
+        docker create monge
+   3. #Comando para verificar todos os container que estão sendo executados
+        docker ps -a
+   4. #Comando para executar o Container do MongoDB
+        docker run- -name mongo -d -p 27023: 27017 mongo
+   5. #instalar o MongoDB Compass
+
+   6. #URI para Connection string     
+        mongodb://localhost : 27323
+   
+
