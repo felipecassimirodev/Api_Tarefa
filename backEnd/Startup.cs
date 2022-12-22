@@ -23,7 +23,7 @@ namespace APITarefas
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CoreAPI.Mongo", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cassimiro APi", Version = "v1" });
             });
 
             services.AddEndpointsApiExplorer();
@@ -33,10 +33,12 @@ namespace APITarefas
             services.AddSingleton<IDataBaseConfig>(sp => sp.GetRequiredService<IOptions<DataBaseConfig>>().Value);
 
             services.AddSingleton<ITarefasRepository, TarefasRepository>();
+            services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
+            services.AddSingleton<ChamadosService>();
+            
             //AddScoped ou AddTransient
 
-            //
-            services.AddSingleton<ChamadosService>();
+
 
             services.AddCors(o => o.AddPolicy("CorsPolicy", builder => {
                 builder
@@ -57,7 +59,7 @@ namespace APITarefas
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Tarefas V1"));
             }
 
             app.UseCors("CorsPolicy");

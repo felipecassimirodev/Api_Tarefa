@@ -1,5 +1,5 @@
 ﻿using APITarefas.Data.Configurations;
-using APITarefas.Models;
+using APITarefas.Models.Entidades;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
@@ -21,17 +21,17 @@ namespace APITarefas.Data.Service
             await _chamados.Find(_ => true).ToListAsync();
 
         public async Task<Chamado> Get(string id) =>
-          await _chamados.Find(m => m.Id == id).FirstOrDefaultAsync();
+          await _chamados.Find(m => m.SolID == id).FirstOrDefaultAsync();
 
         public async Task Create(Chamado novoChamado) =>
           await _chamados.InsertOneAsync(novoChamado);
 
 
         public async Task Update(string id, Chamado atualizaChamado) =>
-          await _chamados.ReplaceOneAsync(m => m.Id == id, atualizaChamado);
+          await _chamados.ReplaceOneAsync(m => m.SolID == id, atualizaChamado);
 
         public async Task remove(string id) =>
-          await _chamados.DeleteOneAsync(m => m.Id == id);
+          await _chamados.DeleteOneAsync(m => m.SolID == id);
 
      
     }

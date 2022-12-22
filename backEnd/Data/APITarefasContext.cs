@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using APITarefas.Models;
+using APITarefas.Models.Entidades;
 
 namespace APITarefas.Data
 {
@@ -14,6 +14,6 @@ namespace APITarefas.Data
         {
         }
 
-        public DbSet<APITarefas.Models.Chamado> Chamado { get; set; } = default!;
+        public DbSet<Chamado> Chamado { get; set; } = default!;
     }
 }

@@ -5,12 +5,24 @@ namespace APITarefas.Models.InputModels
     public class TarefaInputModel
     {
         [Required]
-        public string? Nome { get; set; }
+        public string? Nome
+        {
+            get;
+            set;
+        }
 
         [Required]
-        public string? Titulo { get; set; }
+        public string? Titulo
+        {
+            get;
+            set;
+        }
 
         [Required]
-        public string? Detalhes { get; set; }
+        public string? Detalhes
+        {
+            get;
+            set;
+        }
     }
 }
