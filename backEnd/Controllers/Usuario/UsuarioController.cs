@@ -15,7 +15,6 @@ namespace APITarefas.Controllers.Usuario
             _usuarioRepository = usuarioRepository;
         }
 
-
         // GET: api/Tarefas
         [HttpGet]
         public IActionResult Get()
@@ -59,12 +58,10 @@ namespace APITarefas.Controllers.Usuario
                 else
                 {
                     return BadRequest("Favor inserir os dados do Usuario.");
-                }
-           
+                }        
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
@@ -73,7 +70,6 @@ namespace APITarefas.Controllers.Usuario
         [HttpPut("{id}")]
         public IActionResult Put(string id, [FromBody] UsuarioInput novoUsuario)
         {
-
             try
             {
                 var usuarioExistente = _usuarioRepository.BuscarID(id);
@@ -89,7 +85,8 @@ namespace APITarefas.Controllers.Usuario
                     Email = novoUsuario.Email,
                     Telefone = novoUsuario.Telefone
                 };
-                //usuarioExistente.AtualizaUser(novoUsuario.Nome, novoUsuario.UsuSenha);
+                
+                usuarioExistente.AtualizaUser(usuario);
 
                 _usuarioRepository.Atualizar(id, usuarioExistente);
 
@@ -99,8 +96,7 @@ namespace APITarefas.Controllers.Usuario
             {
 
                 throw;
-            }
-         
+            }        
         }
 
         // DELETE api/Tarefas{id}

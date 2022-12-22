@@ -71,15 +71,13 @@ namespace APITarefas.Models.Entidades
 
         #endregion
 
-        public void AtualizaUser(string nome, string senha)
+        public void AtualizaUser(User user)
         {
-            Nome = nome;
-            Senha = senha;
+            Nome = user.Nome;
+            Usuario = user.Usuario;
+            Senha = user.Senha;
+            Email = user.Email;
+            Telefone = user.Telefone;
         }
-
     }
-
-
-
-
 }

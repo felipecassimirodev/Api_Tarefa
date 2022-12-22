@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using APITarefas.Data;
+using APITarefas.Data.Interfaces;
 
 namespace APITarefas
 {
@@ -34,6 +35,7 @@ namespace APITarefas
 
             services.AddSingleton<ITarefasRepository, TarefasRepository>();
             services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
+            services.AddSingleton<ITramiteRepository, TramiteRepository>();
             services.AddSingleton<ChamadosService>();
             
             //AddScoped ou AddTransient
