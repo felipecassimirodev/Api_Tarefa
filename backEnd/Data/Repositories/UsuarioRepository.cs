@@ -2,7 +2,6 @@
 using APITarefas.Models.Entidades;
 using MongoDB.Driver;
 
-
 namespace APITarefas.Data.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
