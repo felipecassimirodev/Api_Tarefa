@@ -1,5 +1,5 @@
 ﻿using APITarefas.Data.Repositories;
-using APITarefas.Models;
+using APITarefas.Models.Entidades;
 using APITarefas.Models.InputModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +10,7 @@ namespace APITarefas.Controllers
     [ApiController]
     public class TarefasController : ControllerBase
     {
-        private ITarefasRepository _tarefasRepository;
+        private readonly ITarefasRepository _tarefasRepository;
 
         public TarefasController(ITarefasRepository tarefasRepository)
         {

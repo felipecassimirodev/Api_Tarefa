@@ -1,0 +1,12 @@
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\bin\Debug\net6.0\Cassimiro.Dominio.deps.json
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\bin\Debug\net6.0\Cassimiro.Dominio.dll
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\bin\Debug\net6.0\Cassimiro.Dominio.pdb
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.csproj.AssemblyReference.cache
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.AssemblyInfoInputs.cache
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.AssemblyInfo.cs
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.csproj.CoreCompileInputs.cache
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.dll
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\refint\Cassimiro.Dominio.dll
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\Cassimiro.Dominio.pdb
+C:\Projeto\BackEnd\Api_Tarefa\Cassimiro\obj\Debug\net6.0\ref\Cassimiro.Dominio.dll

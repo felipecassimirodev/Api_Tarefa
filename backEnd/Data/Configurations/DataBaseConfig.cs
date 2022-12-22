@@ -5,4 +5,5 @@
         public string? DataBaseName { get; set; }
         public string? ConnectionString { get; set; }
     }
+
 }

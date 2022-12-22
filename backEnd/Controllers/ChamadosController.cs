@@ -1,5 +1,5 @@
 ﻿using APITarefas.Data.Service;
-using APITarefas.Models;
+using APITarefas.Models.Entidades;
 using APITarefas.Models.InputModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -52,7 +52,7 @@ namespace APITarefas.Controllers
                 return NotFound();
             }
 
-            atualizaChamado.Id = chamado.Id;
+            atualizaChamado.SolID = chamado.SolID;
 
             await _chamadosService.Update(id, atualizaChamado);
 
