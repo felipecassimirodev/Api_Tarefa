@@ -40,15 +40,14 @@ namespace APITarefas
             
             //AddScoped ou AddTransient
 
-
-
             services.AddCors(o => o.AddPolicy("CorsPolicy", builder => {
                 builder
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()
-                .WithOrigins("http://192.168.100.42:4200");
+                .WithOrigins("http://localhost:4200", "http://192.168.100.42:4200");
                 //Adicionar ip interno da máquina
+                //origem de onde sera acessada 
             }));
 
             services.AddDbContext<APITarefasContext>(options =>
