@@ -35,7 +35,7 @@ namespace APITarefas.Models.Entidades
 
         public bool Concluido { get; set; }
 
-        public void AtualizarTarefa(string nome, string detalhes, string titulo, bool? concluido = false)
+        public void AtualizarTarefa(string nome, string titulo, string detalhes,  bool? concluido = false)
         {
             Nome = nome;
             Titulo = titulo;
