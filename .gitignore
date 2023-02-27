@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/backEnd/.vs/APITarefas/FileContentIndex
+/backEnd/obj/project.nuget.cache
+/backEnd/.vs/APITarefas/v17/.suo
