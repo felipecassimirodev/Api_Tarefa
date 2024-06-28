@@ -45,7 +45,7 @@ namespace APITarefas
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()
-                .WithOrigins("http://localhost:4200", "http://192.168.100.42:4200");
+                .WithOrigins("http://localhost:4200", "http://172.17.0.2:4200");
                 //Adicionar ip interno da máquina
                 //origem de onde sera acessada 
             }));
