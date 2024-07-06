@@ -33,6 +33,8 @@ namespace APITarefas
             services.Configure<DataBaseConfig>(Configuration.GetSection(nameof(DataBaseConfig)));
             services.AddSingleton<IDataBaseConfig>(sp => sp.GetRequiredService<IOptions<DataBaseConfig>>().Value);
 
+            services.AddSingleton<IAgenda, AgendaRepository>();
+            services.AddSingleton<IVendas, VendasRepository>();
             services.AddSingleton<ITarefasRepository, TarefasRepository>();
             services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
             services.AddSingleton<ITramiteRepository, TramiteRepository>();

@@ -15,9 +15,6 @@ namespace APITarefas.Models.Entidades
             DataCadastro = DateTime.Now;
         }
 
-
-
-
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? ID { get; set; }
@@ -43,7 +40,5 @@ namespace APITarefas.Models.Entidades
             Concluido = concluido ?? false;
             DataConclusao = Concluido ? DateTime.Now : null;
         }
-
-
     }
 }

@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\models\\entidades\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:models\\entidades\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\models\\entidades\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:models\\entidades\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\models\\inputmodels\\vendasinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:models\\inputmodels\\vendasinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\models\\inputmodels\\agendainput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:models\\inputmodels\\agendainput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-06T19:05:46.017Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T22:40:14.067Z",
+              "DocumentIndex": 4,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendaController.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Controllers\\AgendaController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:56:13.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-20T03:53:10.68Z",
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Agenda.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Agenda.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Agenda.cs",
+              "RelativeToolTip": "Models\\Entidades\\Agenda.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:55:36.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T03:40:24.337Z",
+              "DocumentIndex": 7,
+              "Title": "AgendaInput.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\InputModels\\AgendaInput.cs",
+              "RelativeDocumentMoniker": "Models\\InputModels\\AgendaInput.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\InputModels\\AgendaInput.cs",
+              "RelativeToolTip": "Models\\InputModels\\AgendaInput.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:55:23.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Vendas.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Vendas.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Vendas.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Vendas.cs",
+              "RelativeToolTip": "Models\\Entidades\\Vendas.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:54:03.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VendasInput.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\InputModels\\VendasInput.cs",
+              "RelativeDocumentMoniker": "Models\\InputModels\\VendasInput.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\InputModels\\VendasInput.cs",
+              "RelativeToolTip": "Models\\InputModels\\VendasInput.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:53:04.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VendasController.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\VendasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VendasController.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\VendasController.cs",
+              "RelativeToolTip": "Controllers\\VendasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:47:59.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDUAAABiAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA9wCUAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T03:39:43.406Z",
+              "WhenOpened": "2024-07-06T18:47:29.932Z",
               "EditorCaption": ""
             }
           ]
