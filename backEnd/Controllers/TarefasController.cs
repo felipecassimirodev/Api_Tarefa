@@ -1,7 +1,7 @@
-﻿using APITarefas.Data.Repositories;
-using APITarefas.Models.Entidades;
-using APITarefas.Models.InputModels;
+﻿using APITarefas.Models.InputModels;
 using Microsoft.AspNetCore.Mvc;
+using APITarefas.Models.Entidades;
+using APITarefas.Data.Repositories;
 
 
 namespace APITarefas.Controllers
@@ -34,14 +34,14 @@ namespace APITarefas.Controllers
             if (tarefa == null)
                 return NotFound();
 
-            return Ok(tarefa);      
+            return Ok(tarefa);
         }
 
         // POST api/Tarefas
         [HttpPost]
         public IActionResult Post([FromBody] Tarefa novaTarefa)
         {
-            var tarefa = new Tarefa(novaTarefa.Nome , novaTarefa.Titulo, novaTarefa.Detalhes );
+            var tarefa = new Tarefa(novaTarefa.Nome, novaTarefa.Titulo, novaTarefa.Detalhes);
             _tarefasRepository.Adicionar(tarefa);
             return Created("", tarefa);
         }
@@ -55,9 +55,9 @@ namespace APITarefas.Controllers
             if (tarefaExistente == null)
                 return NotFound();
 
-            tarefaExistente.AtualizarTarefa(tarefaAtualizada.Nome , tarefaAtualizada.Titulo,tarefaAtualizada.Detalhes);
-            
-            _tarefasRepository.Atualizar(id , tarefaExistente);
+            tarefaExistente.AtualizarTarefa(tarefaAtualizada.Nome, tarefaAtualizada.Titulo, tarefaAtualizada.Detalhes);
+
+            _tarefasRepository.Atualizar(id, tarefaExistente);
 
             return Ok(tarefaExistente);
         }
@@ -72,7 +72,7 @@ namespace APITarefas.Controllers
                 return NotFound();
 
             _tarefasRepository.Remover(id);
-            
+
             return NoContent();
         }
     }
