@@ -30,7 +30,10 @@ namespace APITarefas.Data.Repositories
         {
             return _usuario.Find(usuarios => true).ToList();
         }
-
+        public User BuscarPorUsuarioSenha(string username, string senha)
+        {
+            return _usuario.Find(user => user.Usuario == username && user.Senha == senha).FirstOrDefault();
+        }
         public User BuscarID(string id)
         {
             return _usuario.Find(usuario => usuario.UsuId == id).FirstOrDefault();

@@ -15,7 +15,7 @@ namespace APITarefas.Controllers.Usuario
             _usuarioRepository = usuarioRepository;
         }
 
-        // GET: api/Tarefas
+        // GET: api/Usuarios
         [HttpGet]
         public IActionResult Get()
         {
@@ -23,19 +23,31 @@ namespace APITarefas.Controllers.Usuario
             return Ok(usuario);
         }
 
-        // GET api/Tarefa{id}
+        // GET api/Usuario{id}
         [HttpGet("{id}")]
         public IActionResult Get(string id)
         {
-            var tarefa = _usuarioRepository.BuscarID(id);
+            var usuario = _usuarioRepository.BuscarID(id);
 
-            if (tarefa == null)
+            if (usuario == null)
                 return NotFound();
 
-            return Ok(tarefa);
+            return Ok(usuario);
+        }
+        // POST api/Usuario/login
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginInput loginInput)
+        {
+            var usuario = _usuarioRepository.BuscarPorUsuarioSenha(loginInput.Username, loginInput.Password);
+
+            if (usuario == null)
+                return Unauthorized();
+
+            // Aqui você pode retornar dados adicionais do usuário se necessário
+            return Ok(new { Nome = usuario.Nome, Email = usuario.Email });
         }
 
-        // POST api/Tarefas
+        // POST api/Usuarios
         [HttpPost]
         public IActionResult Post([FromBody] UsuarioInput novoUsuario)
         {
@@ -66,7 +78,7 @@ namespace APITarefas.Controllers.Usuario
             }
         }
 
-        // PUT api/Tarefas{id}
+        // PUT api/Usuarios{id}
         [HttpPut("{id}")]
         public IActionResult Put(string id, [FromBody] UsuarioInput novoUsuario)
         {
@@ -99,7 +111,7 @@ namespace APITarefas.Controllers.Usuario
             }        
         }
 
-        // DELETE api/Tarefas{id}
+        // DELETE api/Usuario{id}
         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
