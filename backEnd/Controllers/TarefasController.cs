@@ -2,12 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using APITarefas.Models.Entidades;
 using APITarefas.Data.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace APITarefas.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TarefasController : ControllerBase
     {
         private readonly ITarefasRepository _tarefasRepository;

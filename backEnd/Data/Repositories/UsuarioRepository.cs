@@ -43,5 +43,9 @@ namespace APITarefas.Data.Repositories
         {
             _usuario.DeleteOne(usuario => usuario.UsuId == id);
         }
+
+        public async Task<User> GetUserByUsername(string username) =>
+       await _usuario.Find(user => user.Usuario == username).FirstOrDefaultAsync();
+
     }
 }
