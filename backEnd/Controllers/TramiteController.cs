@@ -1,12 +1,14 @@
 ﻿using APITarefas.Data.Interfaces;
 using APITarefas.Models.Entidades;
 using APITarefas.Models.InputModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APITarefas.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TramiteController : ControllerBase
     {
         private readonly ITramiteRepository _tramiteRepository;

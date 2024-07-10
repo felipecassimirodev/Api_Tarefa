@@ -2,12 +2,14 @@
 using APITarefas.Data.Repositories;
 using APITarefas.Models.Entidades;
 using APITarefas.Models.InputModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APITarefas.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AgendaController : ControllerBase
     {
         private readonly IAgenda _agenda;

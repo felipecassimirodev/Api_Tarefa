@@ -12,6 +12,8 @@ namespace APITarefas.Data.Repositories
 
         User BuscarID(string id);
 
+        User BuscarPorUsuarioSenha(string usuario, string senha);
+
         void Remover(string id);
     }
 }

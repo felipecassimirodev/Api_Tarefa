@@ -1,6 +1,7 @@
 ﻿using APITarefas.Data.Service;
 using APITarefas.Models.Entidades;
 using APITarefas.Models.InputModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace APITarefas.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ChamadosController : ControllerBase
     {
         private readonly ChamadosService _chamadosService;
