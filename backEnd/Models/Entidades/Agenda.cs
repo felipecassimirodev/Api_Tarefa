@@ -36,13 +36,13 @@ namespace APITarefas.Models.Entidades
 
         public bool Concluido { get; set; }
 
-        public void AtualizarAgenda(string nome, string detalhes, string procedimento, bool? concluido = false)
+        public void AtualizarAgenda(string nome, string detalhes, string procedimento, DateTime dataAgendamento, bool? concluido = false)
         {
             Nome = nome;
             Detalhes = detalhes;
             Procedimento = procedimento;
             Concluido = concluido ?? false;
-            DataAgendamento = DateTime.Now;
+            DataAgendamento = dataAgendamento;
         }
     }
 }

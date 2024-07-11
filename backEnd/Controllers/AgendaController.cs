@@ -57,7 +57,7 @@ namespace APITarefas.Controllers
             if (agendaExistente == null)
                 return NotFound();
 
-            agendaExistente.AtualizarAgenda(agendaAtualiza.Nome, agendaAtualiza.Detalhes,agendaAtualiza.Procedimento, agendaAtualiza.Concluido);
+            agendaExistente.AtualizarAgenda(agendaAtualiza.Nome, agendaAtualiza.Detalhes,agendaAtualiza.Procedimento, agendaAtualiza.DataAgendamento, agendaAtualiza.Concluido);
 
             _agenda.Atualizar(id, agendaExistente);
 
