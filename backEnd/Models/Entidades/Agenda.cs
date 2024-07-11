@@ -32,7 +32,7 @@ namespace APITarefas.Models.Entidades
 
         public DateTime DataCadastro { get; set; }
 
-        public DateTime? DataAgendamento { get; set; }
+        public DateTime DataAgendamento { get; set; }
 
         public bool Concluido { get; set; }
 
@@ -42,7 +42,7 @@ namespace APITarefas.Models.Entidades
             Detalhes = detalhes;
             Procedimento = procedimento;
             Concluido = concluido ?? false;
-            DataAgendamento = Concluido ? DateTime.Now : null;
+            DataAgendamento = DateTime.Now;
         }
     }
 }

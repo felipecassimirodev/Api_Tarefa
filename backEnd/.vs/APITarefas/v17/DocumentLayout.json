@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\models\\entidades\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:models\\entidades\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|c:\\projeto\\backend\\api_tarefa\\backend\\data\\interfaces\\iagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E871F6D-5A74-4C21-8886-D7EC4D37DD1F}|APITarefas.csproj|solutionrelative:data\\interfaces\\iagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendaController.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Controllers\\AgendaController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwC0AAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:16:03.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Agenda.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Agenda.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Models\\Entidades\\Agenda.cs",
+              "RelativeToolTip": "Models\\Entidades\\Agenda.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADgvywAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T20:18:38.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAgenda.cs",
+              "DocumentMoniker": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Data\\Interfaces\\IAgenda.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IAgenda.cs",
+              "ToolTip": "C:\\Projeto\\BackEnd\\Api_Tarefa\\backEnd\\Data\\Interfaces\\IAgenda.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IAgenda.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T20:18:31.098Z",
+              "EditorCaption": ""
             }
           ]
         }

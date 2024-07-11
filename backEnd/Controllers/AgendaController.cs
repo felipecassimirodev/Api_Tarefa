@@ -43,7 +43,7 @@ namespace APITarefas.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Agenda novaAgenda)
         {
-            var agenda = new Agenda(novaAgenda.Nome, novaAgenda.Procedimento, novaAgenda.Detalhes,novaAgenda.DataCadastro);
+            var agenda = new Agenda(novaAgenda.Nome, novaAgenda.Procedimento, novaAgenda.Detalhes,novaAgenda.DataAgendamento);
             _agenda.Adicionar(agenda);
             return Created("", agenda);
         }
